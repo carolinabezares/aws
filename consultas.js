@@ -22,9 +22,9 @@ var empleado;
 function createConnection() {
     try {
         conectionProducts = {
-            host: 'aws.cu3t4bbyrdyq.us-east-1.rds.amazonaws.com',
-            user: 'admin',
-            password: 'carolinabezares06',
+            host: 'local host',
+            user: 'root',
+            password: '',
             database: 'empleados',
             port: '3306'
         }
